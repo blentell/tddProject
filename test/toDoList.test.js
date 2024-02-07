@@ -1,4 +1,4 @@
-const {createToDoList} = require("../toDoList");
+const createToDoList = require("../todoList");
 
 describe("TodoList", () => {
 	test("should allow adding a task", () => {
